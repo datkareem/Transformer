@@ -4,7 +4,7 @@
 A high-performance weather data processing tool designed to demonstrate efficient data engineering patterns and performance.
 
 ## Overview
-Transformer is a fast data conversion and analysis tool that processes weather station data from a Parquet file. The dataset was curated from Kaggle and contains daily weather readings for 94 major countries, from 1980 - 2024. 
+Transformer is a fast data conversion and analysis tool that processes weather station data from a Parquet file. The dataset was curated from [Kaggle](https://www.kaggle.com/datasets/wafaaelhusseini/capital-weather-data-1995-2024) and contains daily weather readings for 94 major countries, from 1980 - 2024. 
 
 Transformer performs ETL and outputs to 3 file formats: (csv, json, parquet). 
 
@@ -35,7 +35,7 @@ The project implements identical functionality in Python, allowing for direct pe
 ### Installation and Usage
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/datkareem/Transformer
    cd Transformer
    ```
 
@@ -131,6 +131,8 @@ The script measures:
 - Total execution time
 - Execution time per step (ETL)
 - Total records
+
+The results are output to the /output/benchmark folder.
 
 ### Results
 
